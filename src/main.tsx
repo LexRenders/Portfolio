@@ -1,9 +1,17 @@
 import ReactDOM from 'react-dom/client'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 )
 
 root.render(
-    <h1>Hello World!</h1>
+    <div>
+        <Navbar />
+        <div>
+            b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />
+        </div>
+        <Footer />
+    </div>
 )
