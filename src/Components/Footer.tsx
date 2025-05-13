@@ -1,17 +1,16 @@
 function Footer() {
     return (
-        <footer className="bg-indigo-950" >
+        <footer className="bg-indigo-950" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
             <div className="mx-auto max-w-screen-xl px-4 py-6 lg:py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center">
                     {/* Logo */}
                     <div className="flex justify-center">
-                        <img src="/src/assets/images/logo.png" className="h-40" alt="Lex Renders Logo" />
+                        <img src="/logo.png" className="h-40" alt="Lex Renders Logo" />
                     </div>
 
                     {/* Navigation */}
                     <div>
-                        <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Quick navigation</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                        <ul className="text-gray-100 dark:text-gray-100 font-medium space-y-2">
                             <li>
                                 <a href="/" className="hover:underline">Home</a>
                             </li>
@@ -47,7 +46,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <hr className="my-6 border-gray-200 dark:border-gray-700" />
+                <hr className="my-6 border-gray-200 dark:border-gray-200" />
 
                 <div className="text-center">
                     <span className="text-sm text-gray-50 dark:text-gray-50">
