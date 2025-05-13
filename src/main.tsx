@@ -10,7 +10,7 @@ root.render(
     <div>
         <Navbar />
         <div>
-            b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />
+            b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b <br />b<br />b<br />b <br />b
         </div>
         <Footer />
     </div>
