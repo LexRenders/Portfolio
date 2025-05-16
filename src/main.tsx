@@ -13,9 +13,12 @@ root.render(
         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
             <BrowserRouter>
                 <Navbar />
-                <Router />
+                <div className="h-screen">
+                    <Router />
+                </div>
             </BrowserRouter>
             <Footer />
         </div>
     </div>
 )
+
