@@ -102,7 +102,7 @@ const Languages = [
     },
     {
         name: "French",
-        level: 50,
+        level: 60,
     },
 ];
 

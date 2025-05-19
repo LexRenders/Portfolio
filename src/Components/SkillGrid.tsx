@@ -24,7 +24,11 @@ const SkillGrid: FunctionComponent<SkillGridProps> = ({ title, skills }) => {
     );
 };
 
-const SkillCard = ({ skill }: { skill: Skill }) => {
+interface SkillCardProps {
+    skill: Skill;
+}
+
+const SkillCard: FunctionComponent<SkillCardProps> = ({ skill }) => {
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0.7,
@@ -44,7 +48,6 @@ const SkillCard = ({ skill }: { skill: Skill }) => {
                     style={{ width: inView ? `${skill.level}%` : "0%" }}
                 />
             </div>
-            <div className="text-sm text-right mt-1 text-gray-500">{skill.level}%</div>
         </div>
     );
 };
