@@ -1,4 +1,4 @@
-function AboutMePage() {
+function ContactPage() {
     return (
         <div>
             <p>Hello World!</p>
@@ -6,4 +6,4 @@ function AboutMePage() {
     );
 }
 
-export default AboutMePage;
+export default ContactPage;

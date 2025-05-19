@@ -13,7 +13,7 @@ root.render(
         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
             <BrowserRouter>
                 <Navbar />
-                <div className="h-screen">
+                <div className="h-full">
                     <Router />
                 </div>
             </BrowserRouter>
@@ -21,4 +21,6 @@ root.render(
         </div>
     </div>
 )
+
+
 

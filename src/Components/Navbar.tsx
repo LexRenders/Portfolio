@@ -1,3 +1,7 @@
+import { NavLink } from "react-router-dom";
+
+const activeNavLinkClasses = "block py-2 px-3 text-white bg-purple-700 rounded-sm md:bg-transparent md:p-0 md:text-purple-500";
+const inactiveNavLinkClasses = "block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0 text-white md:hover:text-purple-500 hover:bg-gray-700 hover:text-white";
 
 function Navbar() {
     return (
@@ -13,35 +17,33 @@ function Navbar() {
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
-                    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul style={{ backgroundColor: 'transparent' }} className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-indigo-950 dark:border-gray-700">
-                            <li>
-                                <a href="/" className="block py-2 px-3 text-white bg-purple-700 rounded-sm md:bg-transparent md:text-purple-700 md:p-0 dark:text-white md:dark:text-purple-500" aria-current="page">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/about-me" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                    About me
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/about-me" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                    Internship
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/projects" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                    Projects
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/contact" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <nav style={{ backgroundColor: 'transparent' }} className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-indigo-950 dark:border-gray-700">
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => isActive ? activeNavLinkClasses : inactiveNavLinkClasses}>
+                            Home
+                        </NavLink>
+                        <NavLink
+                            to="/about-me"
+                            className={({ isActive }) => isActive ? activeNavLinkClasses : inactiveNavLinkClasses}>
+                            About me
+                        </NavLink>
+                        <NavLink
+                            to="/internship"
+                            className={({ isActive }) => isActive ? activeNavLinkClasses : inactiveNavLinkClasses}>
+                            Internship
+                        </NavLink>
+                        <NavLink
+                            to="/projects"
+                            className={({ isActive }) => isActive ? activeNavLinkClasses : inactiveNavLinkClasses}>
+                            Projects
+                        </NavLink>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) => isActive ? activeNavLinkClasses : inactiveNavLinkClasses}>
+                            Contact
+                        </NavLink>
+                    </nav>
                 </div>
             </nav>
         </div>
