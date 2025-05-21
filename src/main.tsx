@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 )
 
 root.render(
-    <div style={{ backgroundImage: `url(${"/wavey-fingerprint.svg"})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+    <div className="min-h-screen bg-gradient-to-b from-gray-950 via-indigo-950 to-indigo-950">
         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
             <BrowserRouter>
                 <Navbar />
