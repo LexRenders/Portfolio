@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 )
 
 root.render(
-    <div style={{ backgroundImage: `url(${"/Background.jpg"})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+    <div style={{ backgroundImage: `url(${"/wavey-fingerprint.svg"})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
         <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
             <BrowserRouter>
                 <Navbar />
