@@ -4,7 +4,7 @@ function HomePage() {
     return (
         <div className="w-3/4 mx-auto text-center text-white">
             <div>
-                <img src="/Foto_TM.jpg" alt="Photo Lex" className="mt-5 inline-block" />
+                <img src="/Foto_TM.jpg" alt="Photo Lex" className="mt-5 inline-block h-auto w-60 rounded-2xl" />
             </div>
             <div>
                 <h1 className="font-semibold text-4xl mt-10">Hi, i am Lex, passionate software developer</h1>

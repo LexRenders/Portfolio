@@ -7,9 +7,9 @@ function AboutMePage() {
                 <h1 className="text-4xl font-bold text-white-800 mb-4 mt-10">About Lex</h1>
             </div>
             <div className="w-3/4 mx-auto">
-                <div className="grid grid-cols-2 p-4">
+                <div className="lg:grid grid-cols-2 p-4">
                     <div className="p-4 text-center">
-                        <img src="Strong-viking.jpg" alt="Group picture with lex after obstacle run" />
+                        <img src="Strong-viking.jpg" alt="Group picture with lex after obstacle run" className="rounded-2xl" />
                     </div>
                     <div className="p-4 text-left">
                         <p>
