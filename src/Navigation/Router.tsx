@@ -6,6 +6,7 @@ import InternshipPage from '../Pages/InternshipPage'
 import ProjectsPage from '../Pages/ProjectsPage'
 import ContactPage from '../Pages/ContactPage'
 import NotfoundPage from '../Pages/NotFoundPage'
+import ProjectDetails from '../Pages/ProjectDetails'
 
 const Router: FunctionComponent = () => {
     return (
@@ -15,6 +16,7 @@ const Router: FunctionComponent = () => {
             <Route path={'/internship'} element={<InternshipPage />} />
             <Route path={'/projects'} element={<ProjectsPage />} />
             <Route path={'/contact'} element={<ContactPage />} />
+            <Route path="/project/:name" element={<ProjectDetails />} />
             <Route path='*' element={<NotfoundPage />} />
         </Routes>
     )

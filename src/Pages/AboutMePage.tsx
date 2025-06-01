@@ -83,7 +83,7 @@ const SoftSkills = [
     },
     {
         name: "Problem solving",
-        level: 75,
+        level: 80,
     },
     {
         name: "Critical thinking",
