@@ -13,7 +13,7 @@ function InternshipPage() {
                 </div>
                 <p>I got the opportunity to do my internship at Kuubix BV.
                     Kuubix was founded by Indy Hendrickx and Goele Vermeeren in 2020. Goele has her own companies: “Master Interior”, Vitra Partner Store and Espoo.
-                    Kuubix is located in Antwerp, Dorpelei 16 2640 Mortsel. However, I did my workplace learning in a pop-up office within Master Interior (Steenweg op Diest 111 2300 Turnhout).
+                    Kuubix is located in Antwerp, Dorpelei 16 2640 Mortsel. However, I did my Internship in a pop-up office within Master Interior (Steenweg op Diest 111 2300 Turnhout).
                     Indy's brother, Yentl Hendrickx is co-owner of Kuubix. Together they are the heart of the company.
                     Kuubix provides customized software for companies that allows them to improve their business processes.
                     They also have a number of other services such as consulting, VR, Hardware, IoT and they also provide training.
