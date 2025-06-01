@@ -28,7 +28,7 @@ function InternshipPage() {
                     If you are interested, you can find the projects that I made during my internship below.</p>
                 <br />
             </div>
-            <div className="grid grid-cols-3">
+            <div className="lg:grid grid-cols-3">
                 {internshipProjects.map((project) => (
                     <ProjectCard
                         key={project.name}
