@@ -36,7 +36,8 @@ const ContactPage = () => {
             <form
                 action="https://formspree.io/f/xwpbkezy"
                 method="POST"
-                className="space-y-6">
+                className="space-y-6"
+                onSubmit={handleSubmit}>
                 <div>
                     <label className="block mb-1 text-sm font-medium">Name</label>
                     <input
