@@ -24,7 +24,6 @@ function InternshipPage() {
                     Since the company only consists of a team of two, I did not have my own department and I felt like I was part of this heart of the company.
                     What I really appreciated, was that both Indy and Yentl were very familiar with almost all the programming languages I was using.
                     As a result, I could always count on good help whenever I needed it.
-                    Thanks to the their amazing help I managed to learn so much during this period and I feel like I cant ever thank them enough.
                     If you are interested, you can find the projects that I made during my internship below.</p>
                 <br />
             </div>
