@@ -25,6 +25,12 @@ const ProjectDetails = () => {
                     <li key={lang}>{lang}</li>
                 ))}
             </ul>
+
+            {project.gitHubLink !== "" ?
+                <div>
+                    <p className="text-gray-300 whitespace-pre-line"><b>View this project on Github: </b><a href={project.gitHubLink} target="blank" className="text-purple-500">{project.title}</a></p>
+                </div> : ""}
+
             <div className="mb-10">
                 <h2 className="text-xl font-semibold mt-8 mb-2">Explanation of project</h2>
                 <p className="text-gray-300 whitespace-pre-line">{project.explanation}</p>
